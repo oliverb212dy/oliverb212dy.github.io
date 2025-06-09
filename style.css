@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+main {
+    padding: 20px;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section {
+    display: none; /* 기본적으로 모든 섹션을 숨깁니다. */
+    padding: 20px 0;
+}
+
+section.active {
+    display: block; /* active 클래스가 있는 섹션만 보여줍니다. */
+}
+
+h1, h2, h3 {
+    color: #00bcd4;
+}
+
+.project-item {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
